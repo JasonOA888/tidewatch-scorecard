@@ -1,0 +1,30 @@
+name: daily-forecast
+on:
+  schedule:
+    - cron: '30 1 * * *'   # 01:30 UTC = 09:30 SGT, every day
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: daily, cancel-in-progress: false }
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install opentimestamps-client eth-account
+      - name: Snapshot, reveal/score matured, issue + commit today's forecast
+        env:
+          BSC_TESTNET_PK: ${{ secrets.BSC_TESTNET_PK }}
+        run: python pipeline.py
+      - name: Upgrade pending OpenTimestamps proofs (Bitcoin attestation arrives after ~hours)
+        run: |
+          for f in forecasts/*.ots.b64; do base64 -d "$f" > /tmp/p.ots; cp forecasts/$(basename "$f" .ots.b64) /tmp/p 2>/dev/null; (cd /tmp && ots upgrade p.ots >/dev/null 2>&1) && base64 -w0 /tmp/p.ots > "$f" || true; done
+      - name: Append-only commit
+        run: |
+          git config user.name "tidewatch-bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A data forecasts scores ledger.jsonl
+          git commit -m "Day $(python -c 'import json;print(json.loads(open("ledger.jsonl").read().splitlines()[-1])["day"])'): forecast $(date -u +%F)" || exit 0
+          git push
