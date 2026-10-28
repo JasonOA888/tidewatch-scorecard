@@ -1,0 +1,447 @@
+{
+ "label": "LIVE track record",
+ "start": "2026-10-28",
+ "day": 1,
+ "of": 30,
+ "updatedAt": "2026-10-28T02:55:10+00:00",
+ "latest": {
+  "date": "2026-10-28",
+  "index": {
+   "H100": {
+    "index": 2.69,
+    "quotes": {
+     "vast": 2.579,
+     "runpod": 2.69,
+     "lambda": 3.99,
+     "aws": 6.88,
+     "azure": 12.29
+    },
+    "weights": {
+     "vast": 0.25,
+     "runpod": 0.25,
+     "lambda": 0.25,
+     "aws": 0.125,
+     "azure": 0.125
+    },
+    "nSources": 5
+   },
+   "H200": {
+    "index": 5.054,
+    "quotes": {
+     "vast": 5.054,
+     "runpod": 3.59,
+     "aws": 7.912
+    },
+    "weights": {
+     "vast": 0.35,
+     "runpod": 0.35,
+     "aws": 0.3
+    },
+    "nSources": 3
+   },
+   "B200": {
+    "index": 6.69,
+    "quotes": {
+     "vast": 8.75,
+     "runpod": 5.98,
+     "lambda": 6.69,
+     "aws": 14.242
+    },
+    "weights": {
+     "vast": 0.2857,
+     "runpod": 0.2857,
+     "lambda": 0.2857,
+     "aws": 0.1429
+    },
+    "nSources": 4
+   },
+   "A100": {
+    "index": 1.19,
+    "quotes": {
+     "vast": 0.881,
+     "runpod": 1.19,
+     "lambda": 1.99,
+     "aws": 3.431,
+     "azure": 4.096
+    },
+    "weights": {
+     "vast": 0.25,
+     "runpod": 0.25,
+     "lambda": 0.25,
+     "aws": 0.125,
+     "azure": 0.125
+    },
+    "nSources": 5
+   },
+   "L40S": {
+    "index": 0.79,
+    "quotes": {
+     "vast": 0.734,
+     "runpod": 0.79,
+     "aws": 1.861
+    },
+    "weights": {
+     "vast": 0.35,
+     "runpod": 0.35,
+     "aws": 0.3
+    },
+    "nSources": 3
+   },
+   "RTX 4090": {
+    "index": 0.34,
+    "quotes": {
+     "vast": 0.449,
+     "runpod": 0.34
+    },
+    "weights": {
+     "vast": 0.5,
+     "runpod": 0.5
+    },
+    "nSources": 2
+   }
+  },
+  "forecasts": {
+   "H100": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 2.69,
+     "lo80": 2.637,
+     "hi80": 2.744,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 2.69,
+     "lo80": 2.585,
+     "hi80": 2.8,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 2.69,
+     "lo80": 2.483,
+     "hi80": 2.914,
+     "challenger": null
+    }
+   },
+   "H200": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 5.054,
+     "lo80": 4.954,
+     "hi80": 5.156,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 5.054,
+     "lo80": 4.856,
+     "hi80": 5.26,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 5.054,
+     "lo80": 4.665,
+     "hi80": 5.475,
+     "challenger": null
+    }
+   },
+   "B200": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 6.69,
+     "lo80": 6.558,
+     "hi80": 6.825,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 6.69,
+     "lo80": 6.428,
+     "hi80": 6.963,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 6.69,
+     "lo80": 6.176,
+     "hi80": 7.247,
+     "challenger": null
+    }
+   },
+   "A100": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 1.19,
+     "lo80": 1.166,
+     "hi80": 1.214,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 1.19,
+     "lo80": 1.143,
+     "hi80": 1.239,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 1.19,
+     "lo80": 1.099,
+     "hi80": 1.289,
+     "challenger": null
+    }
+   },
+   "L40S": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 0.79,
+     "lo80": 0.774,
+     "hi80": 0.806,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 0.79,
+     "lo80": 0.759,
+     "hi80": 0.822,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 0.79,
+     "lo80": 0.729,
+     "hi80": 0.856,
+     "challenger": null
+    }
+   },
+   "RTX 4090": {
+    "1": {
+     "target": "2026-10-29",
+     "point": 0.34,
+     "lo80": 0.333,
+     "hi80": 0.347,
+     "challenger": null
+    },
+    "7": {
+     "target": "2026-11-04",
+     "point": 0.34,
+     "lo80": 0.327,
+     "hi80": 0.354,
+     "challenger": null
+    },
+    "30": {
+     "target": "2026-11-27",
+     "point": 0.34,
+     "lo80": 0.314,
+     "hi80": 0.368,
+     "challenger": null
+    }
+   }
+  },
+  "anomalies": [
+   {
+    "cls": "H100",
+    "source": "aws",
+    "type": "source_outlier",
+    "detail": "aws 6.88 vs median 2.69 (+156%)"
+   },
+   {
+    "cls": "H100",
+    "source": "azure",
+    "type": "source_outlier",
+    "detail": "azure 12.29 vs median 2.69 (+357%)"
+   },
+   {
+    "cls": "H200",
+    "source": "aws",
+    "type": "source_outlier",
+    "detail": "aws 7.912 vs median 5.054 (+57%)"
+   },
+   {
+    "cls": "B200",
+    "source": "aws",
+    "type": "source_outlier",
+    "detail": "aws 14.242 vs median 6.69 (+113%)"
+   },
+   {
+    "cls": "A100",
+    "source": "lambda",
+    "type": "source_outlier",
+    "detail": "lambda 1.99 vs median 1.19 (+67%)"
+   },
+   {
+    "cls": "A100",
+    "source": "aws",
+    "type": "source_outlier",
+    "detail": "aws 3.431 vs median 1.19 (+188%)"
+   },
+   {
+    "cls": "A100",
+    "source": "azure",
+    "type": "source_outlier",
+    "detail": "azure 4.096 vs median 1.19 (+244%)"
+   },
+   {
+    "cls": "L40S",
+    "source": "aws",
+    "type": "source_outlier",
+    "detail": "aws 1.861 vs median 0.79 (+136%)"
+   }
+  ],
+  "sources": {
+   "vast": {
+    "ok": true,
+    "at": "2026-10-28T02:55:06+00:00"
+   },
+   "runpod": {
+    "ok": true,
+    "at": "2026-10-28T02:55:06+00:00"
+   },
+   "lambda": {
+    "ok": true,
+    "at": "2026-10-28T02:55:06+00:00"
+   },
+   "aws": {
+    "ok": true,
+    "at": "2026-10-28T02:55:07+00:00"
+   },
+   "azure": {
+    "ok": true,
+    "at": "2026-10-28T02:55:07+00:00"
+   },
+   "openrouter": {
+    "ok": true,
+    "at": "2026-10-28T02:55:07+00:00"
+   }
+  },
+  "openrouter": {
+   "models": 464,
+   "medianOutputUsdPerM": 2.0
+  }
+ },
+ "ledger": [
+  {
+   "date": "2026-10-28",
+   "day": 1,
+   "file": "forecasts/2026-10-28.json",
+   "sha256": "420f1ca337933a54508e2ffdc960ab9ff3b2514d9a464247f4c0722d1a098f84",
+   "issuedAt": "2026-10-28T02:55:07+00:00",
+   "openTimestamps": "forecasts/2026-10-28.json.ots.b64",
+   "bsc": {
+    "chain": "bsc-testnet",
+    "status": "pending: no funded testnet key configured (faucet needs a human)"
+   }
+  }
+ ],
+ "scored": [],
+ "aggregate": {
+  "1": {
+   "n": 0,
+   "mape": null,
+   "naiveMape": null,
+   "coverage80": null
+  },
+  "7": {
+   "n": 0,
+   "mape": null,
+   "naiveMape": null,
+   "coverage80": null
+  },
+  "30": {
+   "n": 0,
+   "mape": null,
+   "naiveMape": null,
+   "coverage80": null
+  }
+ },
+ "backtest": {
+  "label": "BACKTEST (walk-forward, Wayback-archived public list prices)",
+  "horizons": {
+   "1": {
+    "n": 765,
+    "mape_model": 0.79,
+    "mape_naive": 0.1,
+    "coverage80": 78.3,
+    "coverage80_naive_floored": 99.2,
+    "dir_acc_model": 84.2,
+    "dir_acc_naive": 99.2,
+    "moves": 6,
+    "dir_acc_on_moves": 33.3
+   },
+   "7": {
+    "n": 758,
+    "mape_model": 1.4,
+    "mape_naive": 0.71,
+    "coverage80": 77.4,
+    "coverage80_naive_floored": 96.4,
+    "dir_acc_model": 78.6,
+    "dir_acc_naive": 95.8,
+    "moves": 32,
+    "dir_acc_on_moves": 25.0
+   },
+   "30": {
+    "n": 736,
+    "mape_model": 3.63,
+    "mape_naive": 2.57,
+    "coverage80": 76.8,
+    "coverage80_naive_floored": 90.9,
+    "dir_acc_model": 67.8,
+    "dir_acc_naive": 85.1,
+    "moves": 110,
+    "dir_acc_on_moves": 16.4
+   }
+  },
+  "bySeries30d": {
+   "lambda|H100": {
+    "n": 135,
+    "mape_model": 3.24,
+    "mape_naive": 2.35,
+    "coverage80": 76.3
+   },
+   "lambda|A100": {
+    "n": 135,
+    "mape_model": 1.62,
+    "mape_naive": 1.14,
+    "coverage80": 80.0
+   },
+   "lambda|B200": {
+    "n": 61,
+    "mape_model": 13.16,
+    "mape_naive": 8.86,
+    "coverage80": 90.2
+   },
+   "runpod|H100": {
+    "n": 105,
+    "mape_model": 3.53,
+    "mape_naive": 2.24,
+    "coverage80": 85.7
+   },
+   "runpod|A100": {
+    "n": 105,
+    "mape_model": 3.59,
+    "mape_naive": 2.83,
+    "coverage80": 60.0
+   },
+   "runpod|H200": {
+    "n": 90,
+    "mape_model": 0.82,
+    "mape_naive": 0.62,
+    "coverage80": 80.0
+   },
+   "runpod|L40S": {
+    "n": 105,
+    "mape_model": 3.75,
+    "mape_naive": 2.8,
+    "coverage80": 70.5
+   }
+  },
+  "model": "Damped Holt (phi .9) on weekly log list price; 80% interval = walk-forward empirical residual quantiles (min 8 past residuals, else \u00b18%\u00b7sqrt(h/7))",
+  "baseline": "Naive: last observed list price",
+  "sources": {
+   "lambda": "web.archive.org snapshots of lambdalabs.com/service/gpu-cloud, lambda.ai/service/gpu-cloud, lambda.ai/pricing",
+   "runpod": "web.archive.org snapshots of runpod.io/pricing"
+  }
+ }
+}
