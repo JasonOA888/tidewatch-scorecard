@@ -166,7 +166,8 @@ def main():
     model=dict(champion='naive (last index); chosen because it beat damped Holt in the walk-forward backtest',interval='80% band = pooled walk-forward backtest log-error quantiles with floors ±2/4/8% (doubled for single-source classes)',challenger='damped Holt on live weekly index once ≥14 live days exist'))
   body=canon(F);digest=hashlib.sha256(body).hexdigest();open(f'forecasts/{d}.json','wb').write(body)
   ots=None
-  try: subprocess.run(['ots','stamp',f'forecasts/{d}.json'],check=True,timeout=120,capture_output=True)
+  try:
+    subprocess.run(['ots','stamp',f'forecasts/{d}.json'],check=True,timeout=120,capture_output=True)
     import base64;open(f'forecasts/{d}.json.ots.b64','w').write(base64.b64encode(open(f'forecasts/{d}.json.ots','rb').read()).decode());os.remove(f'forecasts/{d}.json.ots');ots=f'forecasts/{d}.json.ots.b64'
   except Exception as e: print('ots failed',e)
   bsc=bsc_commit(digest)
