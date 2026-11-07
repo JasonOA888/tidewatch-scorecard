@@ -6,7 +6,14 @@ TODAY=dt.date.fromisoformat(os.environ.get('TW_DATE') or dt.datetime.now(dt.time
 UA={'User-Agent':'Mozilla/5.0 (tidewatch-scorecard; public price snapshot)','Accept-Encoding':'identity'}
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
 def get(url,data=None,headers={},raw=False):
-  h=dict(UA);h.update(headers);r=urllib.request.urlopen(urllib.request.Request(url,data=data,headers=h),timeout=45).read()
+  h=dict(UA);h.update(headers);r=None;last=None
+  for attempt in range(3):  # sources (notably RunPod) intermittently reset the connection; retry transient failures
+    try:
+      r=urllib.request.urlopen(urllib.request.Request(url,data=data,headers=h),timeout=45).read();break
+    except Exception as e:
+      last=e
+      if attempt<2: time.sleep(2)
+  if r is None: raise last
   if r[:2]==b'\x1f\x8b':
     import gzip;r=gzip.decompress(r)
   return r.decode() if raw else json.loads(r)
@@ -147,7 +154,7 @@ def score(snap):
         y=snap['index'][c]['index'];base=F['index'][c]['index']
         sg=lambda z:0 if abs(z)<.01 else (1 if z>0 else -1)
         rows.append(dict(issued=F['date'],target=p['target'],cls=c,h=int(h),point=p['point'],lo80=p['lo80'],hi80=p['hi80'],actual=y,ape=round(abs(y-p['point'])/y,5),inside=p['lo80']<=y<=p['hi80'],
-          naiveApe=round(abs(y-base)/y,5),moved=sg(y/base-1)!=0,challenger=p.get('challenger'),challengerDirOk=(sg(p['challenger']/base-1)==sg(y/base-1)) if p.get('challenger') else None,commitSha256=F['_sha256']))
+          naiveApe=round(abs(y-base)/y,5),moved=sg(y/base-1)!=0,challenger=p.get('challenger'),challengerDirOk=(sg(p['challenger']/base-1)==sg(y/base-1)) if p.get('challenger') else None,commitSha256=hashlib.sha256(open(f,'rb').read()).hexdigest()))
   return rows
 def main():
   os.makedirs('data/snapshots',exist_ok=True);os.makedirs('forecasts',exist_ok=True);os.makedirs('scores',exist_ok=True)
