@@ -1,16 +1,16 @@
 {
  "label": "LIVE track record",
  "start": "2026-10-28",
- "day": 18,
+ "day": 19,
  "of": 30,
- "updatedAt": "2026-11-14T07:55:45+00:00",
+ "updatedAt": "2026-11-15T08:18:21+00:00",
  "latest": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "index": {
    "H100": {
     "index": 2.69,
     "quotes": {
-     "vast": 1.841,
+     "vast": 1.868,
      "runpod": 2.69,
      "lambda": 4.59,
      "aws": 6.88,
@@ -26,9 +26,9 @@
     "nSources": 5
    },
    "H200": {
-    "index": 4.606,
+    "index": 5.2,
     "quotes": {
-     "vast": 4.606,
+     "vast": 5.2,
      "runpod": 3.59,
      "aws": 7.912
     },
@@ -42,7 +42,7 @@
    "B200": {
     "index": 7.69,
     "quotes": {
-     "vast": 10.001,
+     "vast": 10.628,
      "runpod": 5.98,
      "lambda": 7.69,
      "aws": 14.242
@@ -58,7 +58,7 @@
    "A100": {
     "index": 1.19,
     "quotes": {
-     "vast": 0.845,
+     "vast": 0.846,
      "runpod": 1.19,
      "lambda": 1.99,
      "aws": 3.431,
@@ -74,9 +74,9 @@
     "nSources": 5
    },
    "L40S": {
-    "index": 0.801,
+    "index": 0.8,
     "quotes": {
-     "vast": 0.801,
+     "vast": 0.8,
      "runpod": 0.79,
      "aws": 1.861
     },
@@ -90,7 +90,7 @@
    "RTX 4090": {
     "index": 0.34,
     "quotes": {
-     "vast": 0.501,
+     "vast": 0.51,
      "runpod": 0.34
     },
     "weights": {
@@ -103,21 +103,21 @@
   "forecasts": {
    "H100": {
     "1": {
-     "target": "2026-11-15",
+     "target": "2026-11-16",
      "point": 2.69,
      "lo80": 2.637,
      "hi80": 2.744,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
+     "target": "2026-11-22",
      "point": 2.69,
      "lo80": 2.585,
      "hi80": 2.8,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
+     "target": "2026-12-15",
      "point": 2.69,
      "lo80": 2.483,
      "hi80": 2.914,
@@ -126,44 +126,44 @@
    },
    "H200": {
     "1": {
-     "target": "2026-11-15",
-     "point": 4.606,
-     "lo80": 4.515,
-     "hi80": 4.699,
+     "target": "2026-11-16",
+     "point": 5.2,
+     "lo80": 5.097,
+     "hi80": 5.305,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
-     "point": 4.606,
-     "lo80": 4.425,
-     "hi80": 4.794,
+     "target": "2026-11-22",
+     "point": 5.2,
+     "lo80": 4.996,
+     "hi80": 5.412,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
-     "point": 4.606,
-     "lo80": 4.252,
-     "hi80": 4.99,
+     "target": "2026-12-15",
+     "point": 5.2,
+     "lo80": 4.8,
+     "hi80": 5.633,
      "challenger": null
     }
    },
    "B200": {
     "1": {
-     "target": "2026-11-15",
+     "target": "2026-11-16",
      "point": 7.69,
      "lo80": 7.538,
      "hi80": 7.845,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
+     "target": "2026-11-22",
      "point": 7.69,
      "lo80": 7.388,
      "hi80": 8.004,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
+     "target": "2026-12-15",
      "point": 7.69,
      "lo80": 7.099,
      "hi80": 8.33,
@@ -172,21 +172,21 @@
    },
    "A100": {
     "1": {
-     "target": "2026-11-15",
+     "target": "2026-11-16",
      "point": 1.19,
      "lo80": 1.166,
      "hi80": 1.214,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
+     "target": "2026-11-22",
      "point": 1.19,
      "lo80": 1.143,
      "hi80": 1.239,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
+     "target": "2026-12-15",
      "point": 1.19,
      "lo80": 1.099,
      "hi80": 1.289,
@@ -195,44 +195,44 @@
    },
    "L40S": {
     "1": {
-     "target": "2026-11-15",
-     "point": 0.801,
-     "lo80": 0.785,
-     "hi80": 0.817,
+     "target": "2026-11-16",
+     "point": 0.8,
+     "lo80": 0.784,
+     "hi80": 0.816,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
-     "point": 0.801,
-     "lo80": 0.77,
-     "hi80": 0.834,
+     "target": "2026-11-22",
+     "point": 0.8,
+     "lo80": 0.769,
+     "hi80": 0.833,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
-     "point": 0.801,
-     "lo80": 0.739,
-     "hi80": 0.868,
+     "target": "2026-12-15",
+     "point": 0.8,
+     "lo80": 0.738,
+     "hi80": 0.867,
      "challenger": null
     }
    },
    "RTX 4090": {
     "1": {
-     "target": "2026-11-15",
+     "target": "2026-11-16",
      "point": 0.34,
      "lo80": 0.333,
      "hi80": 0.347,
      "challenger": null
     },
     "7": {
-     "target": "2026-11-21",
+     "target": "2026-11-22",
      "point": 0.34,
      "lo80": 0.327,
      "hi80": 0.354,
      "challenger": null
     },
     "30": {
-     "target": "2026-12-14",
+     "target": "2026-12-15",
      "point": 0.34,
      "lo80": 0.314,
      "hi80": 0.368,
@@ -263,12 +263,7 @@
     "cls": "H200",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 7.912 vs median 4.606 (+72%)"
-   },
-   {
-    "cls": "H200",
-    "type": "index_jump",
-    "detail": "+24.8% day-over-day"
+    "detail": "aws 7.912 vs median 5.2 (+52%)"
    },
    {
     "cls": "B200",
@@ -298,38 +293,38 @@
     "cls": "L40S",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 1.861 vs median 0.801 (+132%)"
+    "detail": "aws 1.861 vs median 0.8 (+133%)"
    }
   ],
   "sources": {
    "vast": {
     "ok": true,
-    "at": "2026-11-14T07:55:33+00:00"
+    "at": "2026-11-15T08:18:12+00:00"
    },
    "runpod": {
     "ok": true,
-    "at": "2026-11-14T07:55:33+00:00"
+    "at": "2026-11-15T08:18:13+00:00"
    },
    "lambda": {
     "ok": true,
-    "at": "2026-11-14T07:55:34+00:00"
+    "at": "2026-11-15T08:18:13+00:00"
    },
    "aws": {
     "ok": true,
-    "at": "2026-11-14T07:55:34+00:00"
+    "at": "2026-11-15T08:18:13+00:00"
    },
    "azure": {
     "ok": true,
-    "at": "2026-11-14T07:55:43+00:00"
+    "at": "2026-11-15T08:18:19+00:00"
    },
    "openrouter": {
     "ok": true,
-    "at": "2026-11-14T07:55:44+00:00"
+    "at": "2026-11-15T08:18:19+00:00"
    }
   },
   "openrouter": {
-   "models": 471,
-   "medianOutputUsdPerM": 2.04
+   "models": 470,
+   "medianOutputUsdPerM": 2.0
   }
  },
  "ledger": [
@@ -448,6 +443,18 @@
    "sha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08",
    "issuedAt": "2026-11-14T07:55:44+00:00",
    "openTimestamps": "forecasts/2026-11-14.json.ots.b64",
+   "bsc": {
+    "chain": "bsc-testnet",
+    "status": "pending: no funded testnet key configured (faucet needs a human)"
+   }
+  },
+  {
+   "date": "2026-11-15",
+   "day": 19,
+   "file": "forecasts/2026-11-15.json",
+   "sha256": "5f8efac6fd90b64e94818ecb007b20fb8793f3da3a2666720daa1add771d3849",
+   "issuedAt": "2026-11-15T08:18:19+00:00",
+   "openTimestamps": "forecasts/2026-11-15.json.ots.b64",
    "bsc": {
     "chain": "bsc-testnet",
     "status": "pending: no funded testnet key configured (faucet needs a human)"
@@ -1372,20 +1379,224 @@
    "challenger": null,
    "challengerDirOk": null,
    "commitSha256": "aff5f8fd0099f5beabdc82613c4c82aca350a10be40a6332913d0fd69f40f0a1"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "A100",
+   "h": 7,
+   "point": 1.19,
+   "lo80": 1.143,
+   "hi80": 1.239,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "B200",
+   "h": 7,
+   "point": 7.69,
+   "lo80": 7.388,
+   "hi80": 8.004,
+   "actual": 7.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "H100",
+   "h": 7,
+   "point": 2.69,
+   "lo80": 2.585,
+   "hi80": 2.8,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "H200",
+   "h": 7,
+   "point": 4.343,
+   "lo80": 4.173,
+   "hi80": 4.52,
+   "actual": 5.2,
+   "ape": 0.16481,
+   "inside": false,
+   "naiveApe": 0.16481,
+   "moved": true,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "L40S",
+   "h": 7,
+   "point": 0.79,
+   "lo80": 0.759,
+   "hi80": 0.822,
+   "actual": 0.8,
+   "ape": 0.0125,
+   "inside": true,
+   "naiveApe": 0.0125,
+   "moved": true,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-08",
+   "target": "2026-11-15",
+   "cls": "RTX 4090",
+   "h": 7,
+   "point": 0.34,
+   "lo80": 0.327,
+   "hi80": 0.354,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "2d0519cb79230284d5a413b701e73e51d38e6c2f10dbd484e2afaf6cfc7dcdf2"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "A100",
+   "h": 1,
+   "point": 1.19,
+   "lo80": 1.166,
+   "hi80": 1.214,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "B200",
+   "h": 1,
+   "point": 7.69,
+   "lo80": 7.538,
+   "hi80": 7.845,
+   "actual": 7.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "H100",
+   "h": 1,
+   "point": 2.69,
+   "lo80": 2.637,
+   "hi80": 2.744,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "H200",
+   "h": 1,
+   "point": 4.606,
+   "lo80": 4.515,
+   "hi80": 4.699,
+   "actual": 5.2,
+   "ape": 0.11423,
+   "inside": false,
+   "naiveApe": 0.11423,
+   "moved": true,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "L40S",
+   "h": 1,
+   "point": 0.801,
+   "lo80": 0.785,
+   "hi80": 0.817,
+   "actual": 0.8,
+   "ape": 0.00125,
+   "inside": true,
+   "naiveApe": 0.00125,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
+  },
+  {
+   "issued": "2026-11-14",
+   "target": "2026-11-15",
+   "cls": "RTX 4090",
+   "h": 1,
+   "point": 0.34,
+   "lo80": 0.333,
+   "hi80": 0.347,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "d7d236fd641b1c0deeafb30b7314b3144e2f19c2e5b8d921ec8adedb1c6e5a08"
   }
  ],
  "aggregate": {
   "1": {
-   "n": 42,
-   "mape": 3.07,
-   "naiveMape": 3.07,
-   "coverage80": 81.0
+   "n": 48,
+   "mape": 2.92,
+   "naiveMape": 2.92,
+   "coverage80": 81.2
   },
   "7": {
-   "n": 12,
-   "mape": 3.57,
-   "naiveMape": 3.57,
-   "coverage80": 75.0
+   "n": 18,
+   "mape": 3.36,
+   "naiveMape": 3.36,
+   "coverage80": 77.8
   },
   "30": {
    "n": 0,
