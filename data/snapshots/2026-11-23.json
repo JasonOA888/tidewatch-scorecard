@@ -1,0 +1,309 @@
+{
+ "date": "2026-11-23",
+ "takenAt": "2026-11-23T09:36:51+00:00",
+ "method": "Weighted median of per-source quotes; hyperscalers weight .5; per-source weight cap 35%",
+ "sources": {
+  "vast": {
+   "ok": true,
+   "at": "2026-11-23T09:36:50+00:00"
+  },
+  "runpod": {
+   "ok": true,
+   "at": "2026-11-23T09:36:50+00:00"
+  },
+  "lambda": {
+   "ok": true,
+   "at": "2026-11-23T09:36:50+00:00"
+  },
+  "aws": {
+   "ok": true,
+   "at": "2026-11-23T09:36:51+00:00"
+  },
+  "azure": {
+   "ok": true,
+   "at": "2026-11-23T09:36:51+00:00"
+  },
+  "openrouter": {
+   "ok": true,
+   "at": "2026-11-23T09:36:51+00:00"
+  }
+ },
+ "raw": {
+  "vast": {
+   "B200": {
+    "price": 8.72,
+    "offers": 14,
+    "gpus": 60,
+    "p10": 4.501,
+    "p90": 10.001
+   },
+   "H200": {
+    "price": 5.236,
+    "offers": 18,
+    "gpus": 69,
+    "p10": 4.279,
+    "p90": 7.883
+   },
+   "H100": {
+    "price": 2.004,
+    "offers": 14,
+    "gpus": 25,
+    "p10": 1.427,
+    "p90": 4.523
+   },
+   "A100": {
+    "price": 0.903,
+    "offers": 58,
+    "gpus": 128,
+    "p10": 0.521,
+    "p90": 1.616
+   },
+   "L40S": {
+    "price": 0.734,
+    "offers": 32,
+    "gpus": 91,
+    "p10": 0.467,
+    "p90": 1.072
+   },
+   "RTX 4090": {
+    "price": 0.469,
+    "offers": 64,
+    "gpus": 105,
+    "p10": 0.398,
+    "p90": 0.709
+   }
+  },
+  "runpod": {
+   "A100": {
+    "price": 1.19,
+    "sku": "A100 PCIe"
+   },
+   "B200": {
+    "price": 5.98,
+    "sku": "B200"
+   },
+   "RTX 4090": {
+    "price": 0.34,
+    "sku": "RTX 4090"
+   },
+   "H100": {
+    "price": 2.69,
+    "sku": "H100 SXM"
+   },
+   "H200": {
+    "price": 3.59,
+    "sku": "H200 SXM"
+   },
+   "L40S": {
+    "price": 0.79,
+    "sku": "L40S"
+   }
+  },
+  "lambda": {
+   "B200": {
+    "price": 7.69,
+    "sku": "NVIDIA HGX B200"
+   },
+   "H100": {
+    "price": 4.59,
+    "sku": "NVIDIA HGX H100"
+   },
+   "A100": {
+    "price": 1.99,
+    "sku": "NVIDIA HGX A100"
+   }
+  },
+  "aws": {
+   "H100": {
+    "price": 6.88,
+    "sku": "p5.48xlarge"
+   },
+   "B200": {
+    "price": 14.242,
+    "sku": "p6-b200.48xlarge"
+   },
+   "L40S": {
+    "price": 1.861,
+    "sku": "g6e.xlarge"
+   },
+   "A100": {
+    "price": 3.431,
+    "sku": "p4de.24xlarge"
+   },
+   "H200": {
+    "price": 7.912,
+    "sku": "p5en.48xlarge"
+   }
+  },
+  "azure": {
+   "H100": {
+    "price": 12.29,
+    "sku": "Standard_ND96isr_H100_v5"
+   },
+   "A100": {
+    "price": 4.096,
+    "sku": "Standard_ND96amsr_A100_v4"
+   }
+  },
+  "openrouter": {
+   "models": 477,
+   "medianOutputUsdPerM": 2.225
+  }
+ },
+ "index": {
+  "H100": {
+   "index": 2.69,
+   "quotes": {
+    "vast": 2.004,
+    "runpod": 2.69,
+    "lambda": 4.59,
+    "aws": 6.88,
+    "azure": 12.29
+   },
+   "weights": {
+    "vast": 0.25,
+    "runpod": 0.25,
+    "lambda": 0.25,
+    "aws": 0.125,
+    "azure": 0.125
+   },
+   "nSources": 5
+  },
+  "H200": {
+   "index": 5.236,
+   "quotes": {
+    "vast": 5.236,
+    "runpod": 3.59,
+    "aws": 7.912
+   },
+   "weights": {
+    "vast": 0.35,
+    "runpod": 0.35,
+    "aws": 0.3
+   },
+   "nSources": 3
+  },
+  "B200": {
+   "index": 7.69,
+   "quotes": {
+    "vast": 8.72,
+    "runpod": 5.98,
+    "lambda": 7.69,
+    "aws": 14.242
+   },
+   "weights": {
+    "vast": 0.2857,
+    "runpod": 0.2857,
+    "lambda": 0.2857,
+    "aws": 0.1429
+   },
+   "nSources": 4
+  },
+  "A100": {
+   "index": 1.19,
+   "quotes": {
+    "vast": 0.903,
+    "runpod": 1.19,
+    "lambda": 1.99,
+    "aws": 3.431,
+    "azure": 4.096
+   },
+   "weights": {
+    "vast": 0.25,
+    "runpod": 0.25,
+    "lambda": 0.25,
+    "aws": 0.125,
+    "azure": 0.125
+   },
+   "nSources": 5
+  },
+  "L40S": {
+   "index": 0.79,
+   "quotes": {
+    "vast": 0.734,
+    "runpod": 0.79,
+    "aws": 1.861
+   },
+   "weights": {
+    "vast": 0.35,
+    "runpod": 0.35,
+    "aws": 0.3
+   },
+   "nSources": 3
+  },
+  "RTX 4090": {
+   "index": 0.34,
+   "quotes": {
+    "vast": 0.469,
+    "runpod": 0.34
+   },
+   "weights": {
+    "vast": 0.5,
+    "runpod": 0.5
+   },
+   "nSources": 2
+  }
+ },
+ "anomalies": [
+  {
+   "cls": "H100",
+   "source": "lambda",
+   "type": "source_outlier",
+   "detail": "lambda 4.59 vs median 2.69 (+71%)"
+  },
+  {
+   "cls": "H100",
+   "source": "aws",
+   "type": "source_outlier",
+   "detail": "aws 6.88 vs median 2.69 (+156%)"
+  },
+  {
+   "cls": "H100",
+   "source": "azure",
+   "type": "source_outlier",
+   "detail": "azure 12.29 vs median 2.69 (+357%)"
+  },
+  {
+   "cls": "H200",
+   "source": "aws",
+   "type": "source_outlier",
+   "detail": "aws 7.912 vs median 5.236 (+51%)"
+  },
+  {
+   "cls": "B200",
+   "source": "aws",
+   "type": "source_outlier",
+   "detail": "aws 14.242 vs median 7.69 (+85%)"
+  },
+  {
+   "cls": "A100",
+   "source": "lambda",
+   "type": "source_outlier",
+   "detail": "lambda 1.99 vs median 1.19 (+67%)"
+  },
+  {
+   "cls": "A100",
+   "source": "aws",
+   "type": "source_outlier",
+   "detail": "aws 3.431 vs median 1.19 (+188%)"
+  },
+  {
+   "cls": "A100",
+   "source": "azure",
+   "type": "source_outlier",
+   "detail": "azure 4.096 vs median 1.19 (+244%)"
+  },
+  {
+   "cls": "L40S",
+   "source": "aws",
+   "type": "source_outlier",
+   "detail": "aws 1.861 vs median 0.79 (+136%)"
+  },
+  {
+   "cls": "B200",
+   "source": "vast",
+   "type": "supply_drop",
+   "detail": "offers 29\u219214"
+  }
+ ]
+}
