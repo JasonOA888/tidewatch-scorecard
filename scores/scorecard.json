@@ -1,16 +1,16 @@
 {
  "label": "LIVE track record",
  "start": "2026-10-28",
- "day": 27,
+ "day": 28,
  "of": 30,
- "updatedAt": "2026-11-23T09:36:53+00:00",
+ "updatedAt": "2026-11-24T11:29:52+00:00",
  "latest": {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "index": {
    "H100": {
     "index": 2.69,
     "quotes": {
-     "vast": 2.004,
+     "vast": 1.788,
      "runpod": 2.69,
      "lambda": 4.59,
      "aws": 6.88,
@@ -26,9 +26,9 @@
     "nSources": 5
    },
    "H200": {
-    "index": 5.236,
+    "index": 4.607,
     "quotes": {
-     "vast": 5.236,
+     "vast": 4.607,
      "runpod": 3.59,
      "aws": 7.912
     },
@@ -40,9 +40,9 @@
     "nSources": 3
    },
    "B200": {
-    "index": 7.69,
+    "index": 7.376,
     "quotes": {
-     "vast": 8.72,
+     "vast": 7.376,
      "runpod": 5.98,
      "lambda": 7.69,
      "aws": 14.242
@@ -58,7 +58,7 @@
    "A100": {
     "index": 1.19,
     "quotes": {
-     "vast": 0.903,
+     "vast": 0.846,
      "runpod": 1.19,
      "lambda": 1.99,
      "aws": 3.431,
@@ -90,7 +90,7 @@
    "RTX 4090": {
     "index": 0.34,
     "quotes": {
-     "vast": 0.469,
+     "vast": 0.47,
      "runpod": 0.34
     },
     "weights": {
@@ -103,90 +103,90 @@
   "forecasts": {
    "H100": {
     "1": {
-     "target": "2026-11-24",
+     "target": "2026-11-25",
      "point": 2.69,
      "lo80": 2.637,
      "hi80": 2.744,
-     "challenger": 2.705
+     "challenger": 2.69
     },
     "7": {
-     "target": "2026-11-30",
+     "target": "2026-12-01",
      "point": 2.69,
      "lo80": 2.585,
      "hi80": 2.8,
-     "challenger": 2.705
+     "challenger": 2.69
     },
     "30": {
-     "target": "2026-12-23",
+     "target": "2026-12-24",
      "point": 2.69,
      "lo80": 2.483,
      "hi80": 2.914,
-     "challenger": 2.655
+     "challenger": 2.69
     }
    },
    "H200": {
     "1": {
-     "target": "2026-11-24",
-     "point": 5.236,
-     "lo80": 5.132,
-     "hi80": 5.342,
-     "challenger": 4.943
+     "target": "2026-11-25",
+     "point": 4.607,
+     "lo80": 4.516,
+     "hi80": 4.7,
+     "challenger": 4.596
     },
     "7": {
-     "target": "2026-11-30",
-     "point": 5.236,
-     "lo80": 5.031,
-     "hi80": 5.45,
-     "challenger": 4.943
+     "target": "2026-12-01",
+     "point": 4.607,
+     "lo80": 4.426,
+     "hi80": 4.795,
+     "challenger": 4.596
     },
     "30": {
-     "target": "2026-12-23",
-     "point": 5.236,
-     "lo80": 4.833,
-     "hi80": 5.672,
-     "challenger": 5.171
+     "target": "2026-12-24",
+     "point": 4.607,
+     "lo80": 4.253,
+     "hi80": 4.991,
+     "challenger": 4.631
     }
    },
    "B200": {
     "1": {
-     "target": "2026-11-24",
-     "point": 7.69,
-     "lo80": 7.538,
-     "hi80": 7.845,
-     "challenger": 7.69
+     "target": "2026-11-25",
+     "point": 7.376,
+     "lo80": 7.23,
+     "hi80": 7.525,
+     "challenger": 7.503
     },
     "7": {
-     "target": "2026-11-30",
-     "point": 7.69,
-     "lo80": 7.388,
-     "hi80": 8.004,
-     "challenger": 7.69
+     "target": "2026-12-01",
+     "point": 7.376,
+     "lo80": 7.087,
+     "hi80": 7.677,
+     "challenger": 7.503
     },
     "30": {
-     "target": "2026-12-23",
-     "point": 7.69,
-     "lo80": 7.099,
-     "hi80": 8.33,
-     "challenger": 7.69
+     "target": "2026-12-24",
+     "point": 7.376,
+     "lo80": 6.809,
+     "hi80": 7.99,
+     "challenger": 7.435
     }
    },
    "A100": {
     "1": {
-     "target": "2026-11-24",
+     "target": "2026-11-25",
      "point": 1.19,
      "lo80": 1.166,
      "hi80": 1.214,
      "challenger": 1.19
     },
     "7": {
-     "target": "2026-11-30",
+     "target": "2026-12-01",
      "point": 1.19,
      "lo80": 1.143,
      "hi80": 1.239,
      "challenger": 1.19
     },
     "30": {
-     "target": "2026-12-23",
+     "target": "2026-12-24",
      "point": 1.19,
      "lo80": 1.099,
      "hi80": 1.289,
@@ -195,21 +195,21 @@
    },
    "L40S": {
     "1": {
-     "target": "2026-11-24",
+     "target": "2026-11-25",
      "point": 0.79,
      "lo80": 0.774,
      "hi80": 0.806,
      "challenger": 0.794
     },
     "7": {
-     "target": "2026-11-30",
+     "target": "2026-12-01",
      "point": 0.79,
      "lo80": 0.759,
      "hi80": 0.822,
      "challenger": 0.794
     },
     "30": {
-     "target": "2026-12-23",
+     "target": "2026-12-24",
      "point": 0.79,
      "lo80": 0.729,
      "hi80": 0.856,
@@ -218,21 +218,21 @@
    },
    "RTX 4090": {
     "1": {
-     "target": "2026-11-24",
+     "target": "2026-11-25",
      "point": 0.34,
      "lo80": 0.333,
      "hi80": 0.347,
      "challenger": 0.34
     },
     "7": {
-     "target": "2026-11-30",
+     "target": "2026-12-01",
      "point": 0.34,
      "lo80": 0.327,
      "hi80": 0.354,
      "challenger": 0.34
     },
     "30": {
-     "target": "2026-12-23",
+     "target": "2026-12-24",
      "point": 0.34,
      "lo80": 0.314,
      "hi80": 0.368,
@@ -263,13 +263,13 @@
     "cls": "H200",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 7.912 vs median 5.236 (+51%)"
+    "detail": "aws 7.912 vs median 4.607 (+72%)"
    },
    {
     "cls": "B200",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 14.242 vs median 7.69 (+85%)"
+    "detail": "aws 14.242 vs median 7.376 (+93%)"
    },
    {
     "cls": "A100",
@@ -299,37 +299,43 @@
     "cls": "B200",
     "source": "vast",
     "type": "supply_drop",
-    "detail": "offers 29\u219214"
+    "detail": "offers 14\u21926"
+   },
+   {
+    "cls": "H100",
+    "source": "vast",
+    "type": "supply_drop",
+    "detail": "offers 14\u21924"
    }
   ],
   "sources": {
    "vast": {
     "ok": true,
-    "at": "2026-11-23T09:36:50+00:00"
+    "at": "2026-11-24T11:29:50+00:00"
    },
    "runpod": {
     "ok": true,
-    "at": "2026-11-23T09:36:50+00:00"
+    "at": "2026-11-24T11:29:50+00:00"
    },
    "lambda": {
     "ok": true,
-    "at": "2026-11-23T09:36:50+00:00"
+    "at": "2026-11-24T11:29:50+00:00"
    },
    "aws": {
     "ok": true,
-    "at": "2026-11-23T09:36:51+00:00"
+    "at": "2026-11-24T11:29:50+00:00"
    },
    "azure": {
     "ok": true,
-    "at": "2026-11-23T09:36:51+00:00"
+    "at": "2026-11-24T11:29:50+00:00"
    },
    "openrouter": {
     "ok": true,
-    "at": "2026-11-23T09:36:51+00:00"
+    "at": "2026-11-24T11:29:51+00:00"
    }
   },
   "openrouter": {
-   "models": 477,
+   "models": 473,
    "medianOutputUsdPerM": 2.225
   }
  },
@@ -557,6 +563,18 @@
    "sha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83",
    "issuedAt": "2026-11-23T09:36:51+00:00",
    "openTimestamps": "forecasts/2026-11-23.json.ots.b64",
+   "bsc": {
+    "chain": "bsc-testnet",
+    "status": "pending: no funded testnet key configured (faucet needs a human)"
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "day": 28,
+   "file": "forecasts/2026-11-24.json",
+   "sha256": "1085f87533cca917b78e68b2bbe46d165666496f58daea3fb4959d47c5eb6fcd",
+   "issuedAt": "2026-11-24T11:29:51+00:00",
+   "openTimestamps": "forecasts/2026-11-24.json.ots.b64",
    "bsc": {
     "chain": "bsc-testnet",
     "status": "pending: no funded testnet key configured (faucet needs a human)"
@@ -3317,20 +3335,224 @@
    "challenger": 0.34,
    "challengerDirOk": true,
    "commitSha256": "61f6c787f8ca952a76ba8327b2850ab7e3e0b9b627666c004be50d967c200ece"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "A100",
+   "h": 7,
+   "point": 1.19,
+   "lo80": 1.143,
+   "hi80": 1.239,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "B200",
+   "h": 7,
+   "point": 7.69,
+   "lo80": 7.388,
+   "hi80": 8.004,
+   "actual": 7.376,
+   "ape": 0.04257,
+   "inside": false,
+   "naiveApe": 0.04257,
+   "moved": true,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "H100",
+   "h": 7,
+   "point": 2.69,
+   "lo80": 2.585,
+   "hi80": 2.8,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "H200",
+   "h": 7,
+   "point": 4.606,
+   "lo80": 4.425,
+   "hi80": 4.794,
+   "actual": 4.607,
+   "ape": 0.00022,
+   "inside": true,
+   "naiveApe": 0.00022,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "L40S",
+   "h": 7,
+   "point": 0.8,
+   "lo80": 0.769,
+   "hi80": 0.833,
+   "actual": 0.79,
+   "ape": 0.01266,
+   "inside": true,
+   "naiveApe": 0.01266,
+   "moved": true,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-17",
+   "target": "2026-11-24",
+   "cls": "RTX 4090",
+   "h": 7,
+   "point": 0.34,
+   "lo80": 0.327,
+   "hi80": 0.354,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": null,
+   "challengerDirOk": null,
+   "commitSha256": "febe844ffee9b1722bb6854306bfe4e7179068fb713306aa3bc323d39326bba4"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "A100",
+   "h": 1,
+   "point": 1.19,
+   "lo80": 1.166,
+   "hi80": 1.214,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 1.19,
+   "challengerDirOk": true,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "B200",
+   "h": 1,
+   "point": 7.69,
+   "lo80": 7.538,
+   "hi80": 7.845,
+   "actual": 7.376,
+   "ape": 0.04257,
+   "inside": false,
+   "naiveApe": 0.04257,
+   "moved": true,
+   "challenger": 7.69,
+   "challengerDirOk": false,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "H100",
+   "h": 1,
+   "point": 2.69,
+   "lo80": 2.637,
+   "hi80": 2.744,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 2.705,
+   "challengerDirOk": true,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "H200",
+   "h": 1,
+   "point": 5.236,
+   "lo80": 5.132,
+   "hi80": 5.342,
+   "actual": 4.607,
+   "ape": 0.13653,
+   "inside": false,
+   "naiveApe": 0.13653,
+   "moved": true,
+   "challenger": 4.943,
+   "challengerDirOk": true,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "L40S",
+   "h": 1,
+   "point": 0.79,
+   "lo80": 0.774,
+   "hi80": 0.806,
+   "actual": 0.79,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 0.794,
+   "challengerDirOk": true,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
+  },
+  {
+   "issued": "2026-11-23",
+   "target": "2026-11-24",
+   "cls": "RTX 4090",
+   "h": 1,
+   "point": 0.34,
+   "lo80": 0.333,
+   "hi80": 0.347,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 0.34,
+   "challengerDirOk": true,
+   "commitSha256": "9c95b38393006d0cfa9971949894f7602e0f853b62259292ae257f92db2ffa83"
   }
  ],
  "aggregate": {
   "1": {
-   "n": 96,
-   "mape": 2.04,
-   "naiveMape": 2.04,
-   "coverage80": 86.5
+   "n": 102,
+   "mape": 2.1,
+   "naiveMape": 2.1,
+   "coverage80": 85.3
   },
   "7": {
-   "n": 66,
-   "mape": 2.16,
-   "naiveMape": 2.16,
-   "coverage80": 84.8
+   "n": 72,
+   "mape": 2.06,
+   "naiveMape": 2.06,
+   "coverage80": 84.7
   },
   "30": {
    "n": 0,
