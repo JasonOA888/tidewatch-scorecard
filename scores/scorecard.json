@@ -1,11 +1,11 @@
 {
  "label": "LIVE track record",
  "start": "2026-10-28",
- "day": 31,
+ "day": 32,
  "of": 30,
- "updatedAt": "2026-11-27T10:00:32+00:00",
+ "updatedAt": "2026-11-28T09:17:45+00:00",
  "latest": {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "index": {
    "H100": {
     "index": 2.69,
@@ -26,9 +26,9 @@
     "nSources": 5
    },
    "H200": {
-    "index": 5.067,
+    "index": 5.068,
     "quotes": {
-     "vast": 5.067,
+     "vast": 5.068,
      "runpod": 3.59,
      "aws": 7.912
     },
@@ -42,7 +42,7 @@
    "B200": {
     "index": 7.69,
     "quotes": {
-     "vast": 10.001,
+     "vast": 10.0,
      "runpod": 5.98,
      "lambda": 7.69,
      "aws": 14.242
@@ -58,7 +58,7 @@
    "A100": {
     "index": 1.19,
     "quotes": {
-     "vast": 0.802,
+     "vast": 0.846,
      "runpod": 1.19,
      "lambda": 1.99,
      "aws": 3.431,
@@ -74,9 +74,9 @@
     "nSources": 5
    },
    "L40S": {
-    "index": 0.79,
+    "index": 0.801,
     "quotes": {
-     "vast": 0.734,
+     "vast": 0.801,
      "runpod": 0.79,
      "aws": 1.861
     },
@@ -90,7 +90,7 @@
    "RTX 4090": {
     "index": 0.34,
     "quotes": {
-     "vast": 0.527,
+     "vast": 0.511,
      "runpod": 0.34
     },
     "weights": {
@@ -103,90 +103,90 @@
   "forecasts": {
    "H100": {
     "1": {
-     "target": "2026-11-28",
+     "target": "2026-11-29",
      "point": 2.69,
      "lo80": 2.637,
      "hi80": 2.744,
-     "challenger": 2.69
+     "challenger": 2.67
     },
     "7": {
-     "target": "2026-12-04",
+     "target": "2026-12-05",
      "point": 2.69,
      "lo80": 2.585,
      "hi80": 2.8,
-     "challenger": 2.69
+     "challenger": 2.67
     },
     "30": {
-     "target": "2026-12-27",
+     "target": "2026-12-28",
      "point": 2.69,
      "lo80": 2.483,
      "hi80": 2.914,
-     "challenger": 2.69
+     "challenger": 2.591
     }
    },
    "H200": {
     "1": {
-     "target": "2026-11-28",
-     "point": 5.067,
-     "lo80": 4.967,
-     "hi80": 5.169,
-     "challenger": 4.913
+     "target": "2026-11-29",
+     "point": 5.068,
+     "lo80": 4.968,
+     "hi80": 5.17,
+     "challenger": 4.873
     },
     "7": {
-     "target": "2026-12-04",
-     "point": 5.067,
-     "lo80": 4.868,
-     "hi80": 5.274,
-     "challenger": 4.913
+     "target": "2026-12-05",
+     "point": 5.068,
+     "lo80": 4.869,
+     "hi80": 5.275,
+     "challenger": 4.873
     },
     "30": {
-     "target": "2026-12-27",
-     "point": 5.067,
-     "lo80": 4.677,
-     "hi80": 5.489,
-     "challenger": 5.073
+     "target": "2026-12-28",
+     "point": 5.068,
+     "lo80": 4.678,
+     "hi80": 5.49,
+     "challenger": 4.977
     }
    },
    "B200": {
     "1": {
-     "target": "2026-11-28",
+     "target": "2026-11-29",
      "point": 7.69,
      "lo80": 7.538,
      "hi80": 7.845,
-     "challenger": 7.766
+     "challenger": 7.69
     },
     "7": {
-     "target": "2026-12-04",
+     "target": "2026-12-05",
      "point": 7.69,
      "lo80": 7.388,
      "hi80": 8.004,
-     "challenger": 7.766
+     "challenger": 7.69
     },
     "30": {
-     "target": "2026-12-27",
+     "target": "2026-12-28",
      "point": 7.69,
      "lo80": 7.099,
      "hi80": 8.33,
-     "challenger": 8.072
+     "challenger": 7.69
     }
    },
    "A100": {
     "1": {
-     "target": "2026-11-28",
+     "target": "2026-11-29",
      "point": 1.19,
      "lo80": 1.166,
      "hi80": 1.214,
      "challenger": 1.19
     },
     "7": {
-     "target": "2026-12-04",
+     "target": "2026-12-05",
      "point": 1.19,
      "lo80": 1.143,
      "hi80": 1.239,
      "challenger": 1.19
     },
     "30": {
-     "target": "2026-12-27",
+     "target": "2026-12-28",
      "point": 1.19,
      "lo80": 1.099,
      "hi80": 1.289,
@@ -195,44 +195,44 @@
    },
    "L40S": {
     "1": {
-     "target": "2026-11-28",
-     "point": 0.79,
-     "lo80": 0.774,
-     "hi80": 0.806,
-     "challenger": 0.792
+     "target": "2026-11-29",
+     "point": 0.801,
+     "lo80": 0.785,
+     "hi80": 0.817,
+     "challenger": 0.801
     },
     "7": {
-     "target": "2026-12-04",
-     "point": 0.79,
-     "lo80": 0.759,
-     "hi80": 0.822,
-     "challenger": 0.792
+     "target": "2026-12-05",
+     "point": 0.801,
+     "lo80": 0.77,
+     "hi80": 0.834,
+     "challenger": 0.801
     },
     "30": {
-     "target": "2026-12-27",
-     "point": 0.79,
-     "lo80": 0.729,
-     "hi80": 0.856,
-     "challenger": 0.792
+     "target": "2026-12-28",
+     "point": 0.801,
+     "lo80": 0.739,
+     "hi80": 0.868,
+     "challenger": 0.801
     }
    },
    "RTX 4090": {
     "1": {
-     "target": "2026-11-28",
+     "target": "2026-11-29",
      "point": 0.34,
      "lo80": 0.333,
      "hi80": 0.347,
      "challenger": 0.34
     },
     "7": {
-     "target": "2026-12-04",
+     "target": "2026-12-05",
      "point": 0.34,
      "lo80": 0.327,
      "hi80": 0.354,
      "challenger": 0.34
     },
     "30": {
-     "target": "2026-12-27",
+     "target": "2026-12-28",
      "point": 0.34,
      "lo80": 0.314,
      "hi80": 0.368,
@@ -263,7 +263,7 @@
     "cls": "H200",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 7.912 vs median 5.067 (+56%)"
+    "detail": "aws 7.912 vs median 5.068 (+56%)"
    },
    {
     "cls": "B200",
@@ -293,43 +293,43 @@
     "cls": "L40S",
     "source": "aws",
     "type": "source_outlier",
-    "detail": "aws 1.861 vs median 0.79 (+136%)"
+    "detail": "aws 1.861 vs median 0.801 (+132%)"
    },
    {
     "cls": "RTX 4090",
     "source": "vast",
     "type": "source_outlier",
-    "detail": "vast 0.527 vs median 0.34 (+55%)"
+    "detail": "vast 0.511 vs median 0.34 (+50%)"
    }
   ],
   "sources": {
    "vast": {
     "ok": true,
-    "at": "2026-11-27T10:00:29+00:00"
+    "at": "2026-11-28T09:17:39+00:00"
    },
    "runpod": {
     "ok": true,
-    "at": "2026-11-27T10:00:29+00:00"
+    "at": "2026-11-28T09:17:40+00:00"
    },
    "lambda": {
     "ok": true,
-    "at": "2026-11-27T10:00:29+00:00"
+    "at": "2026-11-28T09:17:40+00:00"
    },
    "aws": {
     "ok": true,
-    "at": "2026-11-27T10:00:30+00:00"
+    "at": "2026-11-28T09:17:40+00:00"
    },
    "azure": {
     "ok": true,
-    "at": "2026-11-27T10:00:30+00:00"
+    "at": "2026-11-28T09:17:43+00:00"
    },
    "openrouter": {
     "ok": true,
-    "at": "2026-11-27T10:00:30+00:00"
+    "at": "2026-11-28T09:17:43+00:00"
    }
   },
   "openrouter": {
-   "models": 477,
+   "models": 475,
    "medianOutputUsdPerM": 2.2
   }
  },
@@ -605,6 +605,18 @@
    "sha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6",
    "issuedAt": "2026-11-27T10:00:30+00:00",
    "openTimestamps": "forecasts/2026-11-27.json.ots.b64",
+   "bsc": {
+    "chain": "bsc-testnet",
+    "status": "pending: no funded testnet key configured (faucet needs a human)"
+   }
+  },
+  {
+   "date": "2026-11-28",
+   "day": 32,
+   "file": "forecasts/2026-11-28.json",
+   "sha256": "70ca139a87636cad69cd9e76c509cf6f5e2351bc7979897f5b9a39dd275780e5",
+   "issuedAt": "2026-11-28T09:17:43+00:00",
+   "openTimestamps": "forecasts/2026-11-28.json.ots.b64",
    "bsc": {
     "chain": "bsc-testnet",
     "status": "pending: no funded testnet key configured (faucet needs a human)"
@@ -4283,19 +4295,223 @@
    "challenger": 0.34,
    "challengerDirOk": true,
    "commitSha256": "332fb57e745c7364f6ecf11355265c26f358332b05118d023548c4911951bdf7"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "A100",
+   "h": 7,
+   "point": 1.19,
+   "lo80": 1.143,
+   "hi80": 1.239,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 1.19,
+   "challengerDirOk": true,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "B200",
+   "h": 7,
+   "point": 7.69,
+   "lo80": 7.388,
+   "hi80": 8.004,
+   "actual": 7.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 7.69,
+   "challengerDirOk": true,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "H100",
+   "h": 7,
+   "point": 2.69,
+   "lo80": 2.585,
+   "hi80": 2.8,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 2.715,
+   "challengerDirOk": true,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "H200",
+   "h": 7,
+   "point": 4.607,
+   "lo80": 4.426,
+   "hi80": 4.795,
+   "actual": 5.068,
+   "ape": 0.09096,
+   "inside": false,
+   "naiveApe": 0.09096,
+   "moved": true,
+   "challenger": 4.607,
+   "challengerDirOk": false,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "L40S",
+   "h": 7,
+   "point": 0.8,
+   "lo80": 0.769,
+   "hi80": 0.833,
+   "actual": 0.801,
+   "ape": 0.00125,
+   "inside": true,
+   "naiveApe": 0.00125,
+   "moved": false,
+   "challenger": 0.8,
+   "challengerDirOk": true,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-21",
+   "target": "2026-11-28",
+   "cls": "RTX 4090",
+   "h": 7,
+   "point": 0.34,
+   "lo80": 0.327,
+   "hi80": 0.354,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 0.34,
+   "challengerDirOk": true,
+   "commitSha256": "cd4bbf2fd46799ca70c2ab8402446685eb98353e6532e9a3ceb289f758c75181"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "A100",
+   "h": 1,
+   "point": 1.19,
+   "lo80": 1.166,
+   "hi80": 1.214,
+   "actual": 1.19,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 1.19,
+   "challengerDirOk": true,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "B200",
+   "h": 1,
+   "point": 7.69,
+   "lo80": 7.538,
+   "hi80": 7.845,
+   "actual": 7.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 7.766,
+   "challengerDirOk": true,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "H100",
+   "h": 1,
+   "point": 2.69,
+   "lo80": 2.637,
+   "hi80": 2.744,
+   "actual": 2.69,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 2.69,
+   "challengerDirOk": true,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "H200",
+   "h": 1,
+   "point": 5.067,
+   "lo80": 4.967,
+   "hi80": 5.169,
+   "actual": 5.068,
+   "ape": 0.0002,
+   "inside": true,
+   "naiveApe": 0.0002,
+   "moved": false,
+   "challenger": 4.913,
+   "challengerDirOk": false,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "L40S",
+   "h": 1,
+   "point": 0.79,
+   "lo80": 0.774,
+   "hi80": 0.806,
+   "actual": 0.801,
+   "ape": 0.01373,
+   "inside": true,
+   "naiveApe": 0.01373,
+   "moved": true,
+   "challenger": 0.792,
+   "challengerDirOk": false,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
+  },
+  {
+   "issued": "2026-11-27",
+   "target": "2026-11-28",
+   "cls": "RTX 4090",
+   "h": 1,
+   "point": 0.34,
+   "lo80": 0.333,
+   "hi80": 0.347,
+   "actual": 0.34,
+   "ape": 0.0,
+   "inside": true,
+   "naiveApe": 0.0,
+   "moved": false,
+   "challenger": 0.34,
+   "challengerDirOk": true,
+   "commitSha256": "6066e7d03dd76cc4902ba9a576aee6134955d224feee22c13f256c24b369c2f6"
   }
  ],
  "aggregate": {
   "1": {
-   "n": 120,
-   "mape": 2.62,
-   "naiveMape": 2.62,
-   "coverage80": 82.5
+   "n": 126,
+   "mape": 2.51,
+   "naiveMape": 2.51,
+   "coverage80": 83.3
   },
   "7": {
-   "n": 90,
-   "mape": 2.29,
-   "naiveMape": 2.29,
+   "n": 96,
+   "mape": 2.24,
+   "naiveMape": 2.24,
    "coverage80": 84.4
   },
   "30": {
